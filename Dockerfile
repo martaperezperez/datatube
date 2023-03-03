@@ -5,6 +5,6 @@ WORKDIR /usr/src/app
 
 RUN pip install pytube
 
-COPY ./app /usrc/src/app
+COPY ./app /usr/src/app
 
 CMD [ "python", "main.py" ]
