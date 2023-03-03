@@ -1,0 +1,5 @@
+services:
+  py:
+    image: martaimagen:latest
+    volumes:
+      - ./app:/usr/src/app
